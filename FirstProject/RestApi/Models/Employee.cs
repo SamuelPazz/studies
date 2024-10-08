@@ -16,6 +16,8 @@ namespace RestApi.Models
         [Column("photo")]
         public string? Photo { get; set; }
 
+
+        public Employee() { }
         public Employee(string name, int age, string? photo)
         {
             this.Name = name;

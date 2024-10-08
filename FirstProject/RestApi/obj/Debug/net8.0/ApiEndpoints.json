@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "RestApi.Controllers.AuthController",
+    "Method": "Auth",
+    "RelativePath": "api/v1/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RestApi.Controllers.EmployeeController",
     "Method": "Add",
     "RelativePath": "api/v1/employee/createUser",

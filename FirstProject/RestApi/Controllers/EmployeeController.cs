@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RestApi.Models;
 using RestApi.ViewModel;
 
@@ -15,6 +16,7 @@ namespace RestApi.Controllers
             _employeeRepository = employeeRepository ?? throw new ArgumentNullException(); 
         }
 
+        [Authorize]
         [HttpPost]
         [Route("createUser")]
         public IActionResult Add([FromForm]EmployeeViewModel employeeView)
@@ -31,6 +33,7 @@ namespace RestApi.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         [Route("getAllUsers")]
         public IActionResult Get()
@@ -40,6 +43,7 @@ namespace RestApi.Controllers
             return Ok(employee);
         }
 
+        [Authorize]
         [HttpPost]
         [Route("download/{id}")]
         public IActionResult DownloadPhoto(int id)

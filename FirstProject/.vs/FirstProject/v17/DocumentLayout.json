@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\infra\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\infra\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\restapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\restapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "RestApi\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "RestApi\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAASwDYAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Program.cs",
+              "RelativeDocumentMoniker": "RestApi\\Program.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Program.cs",
+              "RelativeToolTip": "RestApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:36:12.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Infra\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "RestApi\\Infra\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Infra\\EmployeeRepository.cs",
-              "RelativeToolTip": "RestApi\\Infra\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:32:19.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Models\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "RestApi\\Models\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Models\\IEmployeeRepository.cs",
-              "RelativeToolTip": "RestApi\\Models\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:31:47.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RestApi.http",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\RestApi.http",
-              "RelativeDocumentMoniker": "RestApi\\RestApi.http",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\RestApi.http",
-              "RelativeToolTip": "RestApi\\RestApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-04T17:23:04.22Z",
+              "WhenOpened": "2024-10-08T17:54:16.065Z",
               "EditorCaption": ""
             }
           ]
