@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RestApi.Models;
+using RestApi.Domain.Models;
 
 namespace RestApi.Infra
 {

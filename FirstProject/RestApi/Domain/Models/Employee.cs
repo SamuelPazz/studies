@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RestApi.Models
+namespace RestApi.Domain.Models
 {
     [Table("employee")]
     public class Employee
@@ -20,9 +20,9 @@ namespace RestApi.Models
         public Employee() { }
         public Employee(string name, int age, string? photo)
         {
-            this.Name = name;
-            this.Age = age;
-            this.Photo = photo;
+            Name = name;
+            Age = age;
+            Photo = photo;
         }
     }
 }

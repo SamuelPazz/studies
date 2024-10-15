@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RestApi.Services;
+using RestApi.Application.Services;
 
 namespace RestApi.Controllers
 {
@@ -12,7 +12,7 @@ namespace RestApi.Controllers
         {
             if (username == "Samuel" && password == "123456")
             {
-                var token = TokenService.GenerateToken(new Models.Employee());
+                var token = TokenService.GenerateToken(new Domain.Models.Employee());
                 return Ok(token);
             }
             return BadRequest("username or password invalid");

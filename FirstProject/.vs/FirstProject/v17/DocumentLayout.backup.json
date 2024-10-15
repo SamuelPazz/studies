@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\infra\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\infra\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\domain\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\domain\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\domain\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\domain\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|c:\\users\\sppaz\\desktop\\studies\\firstproject\\restapi\\application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7CA248-4C20-4647-958F-DF25EEA3A827}|RestApi\\RestApi.csproj|solutionrelative:restapi\\application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Key.cs",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Key.cs",
-              "RelativeDocumentMoniker": "RestApi\\Key.cs",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Key.cs",
-              "RelativeToolTip": "RestApi\\Key.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RestApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RestApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T17:44:28.578Z",
+              "WhenOpened": "2024-10-15T13:55:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "RestApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "RestApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:55:30.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "RestApi\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Services\\TokenService.cs",
-              "RelativeToolTip": "RestApi\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Infra\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "RestApi\\Infra\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Infra\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "RestApi\\Infra\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:48:12.632Z",
+              "WhenOpened": "2024-10-15T13:52:47.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Domain\\Models\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "RestApi\\Domain\\Models\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Domain\\Models\\IEmployeeRepository.cs",
+              "RelativeToolTip": "RestApi\\Domain\\Models\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:52:15.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Domain\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "RestApi\\Domain\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Domain\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "RestApi\\Domain\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:50:56.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "RestApi\\Application\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\sppaz\\Desktop\\studies\\FirstProject\\RestApi\\Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "RestApi\\Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:24:09.575Z",
               "EditorCaption": ""
             }
           ]

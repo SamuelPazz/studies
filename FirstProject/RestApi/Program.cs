@@ -4,8 +4,9 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using RestApi;
-using RestApi.Infra;
-using RestApi.Models;
+using Microsoft.AspNetCore.Builder;
+using RestApi.Domain.Models;
+using RestApi.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,8 +69,13 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseExceptionHandler("/error-development");
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    app.UseExceptionHandler("/error");
 }
 
 app.UseHttpsRedirection();

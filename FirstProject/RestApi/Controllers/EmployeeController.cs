@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using RestApi.Models;
-using RestApi.ViewModel;
+using RestApi.Application.ViewModel;
+using RestApi.Domain.Models;
 
 namespace RestApi.Controllers
 {
@@ -10,10 +10,12 @@ namespace RestApi.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly ILogger<EmployeeController> _logger;
 
-        public EmployeeController(IEmployeeRepository employeeRepository)
+        public EmployeeController(IEmployeeRepository employeeRepository, ILogger<EmployeeController> logger)
         {
-            _employeeRepository = employeeRepository ?? throw new ArgumentNullException(); 
+            _employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [Authorize]
@@ -36,9 +38,17 @@ namespace RestApi.Controllers
         [Authorize]
         [HttpGet]
         [Route("getAllUsers")]
-        public IActionResult Get()
+        public IActionResult Get(int pageNumber, int pageQuantity)
         {
-            var employee = _employeeRepository.Get();
+            var employee = _employeeRepository.Get(pageNumber, pageQuantity);
+
+            if (pageNumber <= 0 || pageQuantity <= 0)
+            {
+                _logger.Log(LogLevel.Error, "Error on controller, route: getAllUsers");
+                return BadRequest(employee);
+            }
+
+            _logger.LogInformation("OK, Information log");
 
             return Ok(employee);
         }

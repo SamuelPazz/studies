@@ -1,11 +1,10 @@
 ﻿using Microsoft.IdentityModel.Tokens;
-using RestApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using RestApi;
+using RestApi.Domain.Models;
 
-namespace RestApi.Services
+namespace RestApi.Application.Services
 {
     public class TokenService
     {
@@ -14,7 +13,7 @@ namespace RestApi.Services
             var key = Encoding.ASCII.GetBytes(Key.Secret);
             var tokenConfig = new SecurityTokenDescriptor
             {
-                Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]
+                Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim("employeeId", employee.Id.ToString()),
                 }),
